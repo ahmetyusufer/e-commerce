@@ -57,17 +57,17 @@ Bu proje, modern frontend (React) ve backend (Node.js/Express.js) teknolojilerin
 
 ## 🚀 Kurulum ve Çalıştırma
 
-### 1️⃣ Backend Kurulumu
-
-```bash
+# Backend kurulumu ve çalıştırma
 cd server
-npm install
-npm run dev
+npm install             # Gerekli paketleri yükler
+npm run dev             # Geliştirme ortamında backend'i başlatır
 
-PORT=5000
-MONGO_URI=<MongoDB bağlantı string>
-JWT_SECRET=<gizli anahtar>
+# .env dosyası içeriği (server/.env):
+PORT=5000               # API'nin dinleyeceği port
+MONGO_URI=<MongoDB bağlantı string>  # Veritabanı bağlantı adresi
+JWT_SECRET=<gizli anahtar>           # JWT kimlik doğrulama için gizli anahtar
 
+# Frontend kurulumu ve çalıştırma
 cd client
-npm install
-npm run dev
+npm install             # Gerekli frontend paketlerini yükler
+npm run dev             # Frontend'i başlatır
