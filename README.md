@@ -8,7 +8,6 @@ Bu proje, modern frontend (React) ve backend (Node.js/Express.js) teknolojilerin
 
 ✅ **Ürün Yönetimi**  
 - Ürün listeleme ve detay sayfası  
-- Ürün ekleme, silme (admin yetkisi ile)
 
 ✅ **Sepet ve Favoriler**  
 - Ürünleri sepete ekleme ve kaldırma  
