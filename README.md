@@ -1,4 +1,4 @@
-![GitHub Görseli](client/public/images/forReadMe.png)
+![Github Görseli](https://raw.githubusercontent.com/kullaniciadi/repo/main/client/public/images/forReadMe.png)
 
 # 🛒 Fullstack E-Ticaret Uygulaması
 
