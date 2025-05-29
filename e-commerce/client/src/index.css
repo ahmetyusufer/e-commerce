@@ -1,0 +1,141 @@
+:root {
+  --bs-primary: #4f46e5;
+  --bs-secondary: #ec4899;
+  --bs-bg: #f9fafb;
+  --bs-card: #ffffff;
+  --bs-border: #e5e7eb;
+  --bs-text-dark: #111827;
+  --bs-muted: #6b7280;
+  --bs-hover: #f3f4f6;
+}
+
+body,
+html {
+  background-color: var(--bs-bg);
+  font-family: "Inter", sans-serif;
+}
+
+.no-hover {
+  color: white !important;
+}
+.no-hover:hover {
+  background-color: transparent !important;
+}
+
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary {
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  transition: 0.3s ease;
+}
+.btn-outline-primary:hover {
+  background-color: var(--bs-primary);
+  color: white;
+  border-color: var(--bs-primary);
+}
+
+.btn-outline-secondary {
+  color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+  transition: 0.3s ease;
+}
+.btn-outline-secondary:hover {
+  background-color: var(--bs-secondary);
+  color: white;
+  border-color: var(--bs-secondary);
+}
+
+.icon-hover {
+  transition: all 0.3s ease;
+  color: var(--bs-muted);
+}
+.icon-hover:hover {
+  color: var(--bs-secondary);
+}
+
+.bg-muted {
+  background-color: var(--bs-muted);
+}
+
+.icon-hover {
+  color: var(--bs-primary);
+  transition: color 0.3s ease;
+}
+
+.icon-hover:hover {
+  color: black;
+}
+
+.btn-iod {
+  background-color: transparent;
+  border: 0;
+}
+
+.btn-iod:hover {
+  background-color: var(--bs-primary);
+  border-radius: 3px;
+  color: white;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  color: white;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: var(--bs-primary);
+  color: white;
+  opacity: 75%;
+}
+
+.text-primary {
+  color: var(--bs-primary);
+}
+
+.text-secondary {
+  color: var(--bs-secondary) !important;
+}
+
+.text-secondary {
+  color: var(--bs-secondary) !important;
+}
+
+.text-close {
+  color: black !important;
+}
+
+.text-close:hover {
+  opacity: 50% !important;
+}
+
+.calculatedHeight {
+  height: calc(100vh - 170px);
+}
+
+.bg-primary {
+  color: var(--bs-primary);
+  background-color: transparent !important;
+}
+
+.bg-primary:hover {
+  color: var(--bs-muted);
+  background-color: transparent !important;
+}
+
+.border-primary {
+  color: var(--bs-primary);
+}
+
+.text-decoration-primary {
+  text-decoration: underline;
+  text-decoration-color: var(--bs-primary); /* Bootstrap’ın ana rengi */
+}
+
+.bg-primaryy {
+  background-color: var(--bs-primary);
+  color: white;
+}
