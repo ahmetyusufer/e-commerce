@@ -1,4 +1,4 @@
-![Uygulama Görseli](public/images/forReadMe.png)
+![Uygulama Görseli](client/public/images/forReadMe.png)
 
 # 🛒 Fullstack E-Ticaret Uygulaması
 
