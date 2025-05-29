@@ -1,3 +1,5 @@
+![Uygulama Görseli](public/images/forReadMe.png)
+
 # 🛒 Fullstack E-Ticaret Uygulaması
 
 Bu proje, modern frontend (React) ve backend (Node.js/Express.js) teknolojilerini kullanan tam özellikli bir **E-Ticaret Uygulamasıdır**. Kullanıcıların ürünleri görüntüleyip, sepetlerine ekleyebildiği, favorilere kaydedebildiği ve siparişlerini yönetebildiği bir online alışveriş platformudur.
